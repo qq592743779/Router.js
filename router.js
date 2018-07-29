@@ -45,7 +45,5 @@ class Router {
         ? (this.currentHistoryIndex = 0) 
         : (this.currentHistoryIndex = this.currentHistoryIndex - 1);
         window.location.hash = `#${this.history[this.currentHistoryIndex]}`;
-        //  执行callback
-        this.routes[this.history[this.currentHistoryIndex]]();
     }
 }
