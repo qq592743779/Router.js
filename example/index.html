@@ -11,12 +11,13 @@
       <li><a href="#/blue">turn blue</a></li>
       <li><a href="#/green">turn green</a></li>
   </ul> 
+  <a href="javascript:Routers.backOff();">后退</a>
   <script src="../router.js"></script>
   <script>
         window.Routers = new Router();
         var content = document.querySelector('body');
         
-        // change Page anything
+        // 修改页面颜色
         function changeBgColor(color) {
             content.style.backgroundColor = color;
         }
