@@ -1,7 +1,7 @@
 class Router {
     constructor(){
         //  以键值对的形式存储路由
-        this.routes = {};
+        this.routes = {}; 
         //  存储当前的路由
         this.currentUrl = '';
         this.refresh = this.refresh.bind(this);
